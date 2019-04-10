@@ -1,0 +1,80 @@
+body {
+        background-color: lightgrey;
+}
+
+
+.navbar {
+          /* height: 70px; */
+          vertical-align: middle;
+          background-color: white !important;
+}
+
+
+
+.navbar-brand {
+                background-color: lightskyblue;
+                color:blue !important;
+                height: auto;
+                /*: 70px; */
+                /*padding:  0 40px; */
+                font-size: 40px;
+                text-align: center;
+                vertical-align: middle;
+
+}
+
+
+
+.navbar .navbar-nav li a{
+                           color:blue !important;
+}
+
+
+.navbar-toggler {
+                  background-color: grey;
+}
+
+
+.navbar .navbar-collapse {
+                            background-color: white;
+      }
+
+
+
+@media only screen and (max-width: 800px) {
+        .navbar {
+          background-color:lightskyblue !important;
+        }
+
+
+col  {
+        background-color: white !important;
+        box-align: center
+}
+
+col-6  {
+        background-color: white !important;
+        box-align: center
+}
+
+
+
+div {
+        border-color: rgb(211, 17, 17);
+        border: 1px;
+        border-style: solid;
+}
+
+li {
+        padding: 10px;
+}
+
+hr {
+        width: 80%;
+}
+
+
+
+tr {
+        line-height: 12px;
+     }

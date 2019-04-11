@@ -1,7 +1,10 @@
 body {
-        background-color: lightgrey;
+        background-color: lightgray;
 }
 
+.container-fluid {
+        padding: 25px 50px 0 50px;
+}
 
 .navbar {
           /* height: 70px; */
@@ -9,71 +12,52 @@ body {
           background-color: white !important;
 }
 
-
-
 .navbar-brand {
-                background-color: lightskyblue;
-                color:blue !important;
-                height: auto;
-                /*: 70px; */
-                /*padding:  0 40px; */
-                font-size: 40px;
-                text-align: center;
-                vertical-align: middle;
-
+        background-color: lightskyblue;
+        color:blue !important;
+        /* height: auto; */
+        /*: 70px; */
+        padding:  0 40px;
+        font-size: 40px;
+        text-align: center;
+        vertical-align: middle;
 }
 
-
+.col-lg-12, .col-lg-10, .col-lg-6, .col-lg-4 .col-sm-12, .col-sm-6 {
+        background-color: white !important;
+}
 
 .navbar .navbar-nav li a{
-                           color:blue !important;
+        color:blue !important;
 }
 
 
 .navbar-toggler {
-                  background-color: grey;
+        background-color: lightgray;
 }
 
 
 .navbar .navbar-collapse {
-                            background-color: white;
-      }
+        background-color: white;
+        border-width: 0;
+}
 
+col-lg-6, col-lg-12, col-med-12  {
+        background-color: white !important;
+        box-align: center;
+}
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
         .navbar {
           background-color:lightskyblue !important;
         }
-
-
-col  {
-        background-color: white !important;
-        box-align: center
 }
 
-col-6  {
-        background-color: white !important;
-        box-align: center
+h2, h4 {
+        color: blue !important;
+        padding: 15px 0 15px 15px;
+
 }
-
-
-
-div {
-        border-color: rgb(211, 17, 17);
-        border: 1px;
-        border-style: solid;
-}
-
-li {
-        padding: 10px;
-}
-
-hr {
-        width: 80%;
-}
-
-
 
 tr {
         line-height: 12px;
